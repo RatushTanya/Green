@@ -1,6 +1,3 @@
-### Юридична процедура випуску муніципальних зелених облігацій
-
-```mermaid
 graph TD
     %% Етап 1
     Step1["Етап 1. Стратегічне планування"]
@@ -30,6 +27,8 @@ graph TD
 
     %% Етап 5
     ISIN --> Step5["Етап 5. Розміщення та звітність"]
+    Law5["ст. 18 ЗУ Про ринки капіталу"]
+    Step5 --- Law5
     Step5 --> Act5["Продаж облігацій та щорічний Impact Reporting"]
 
     %% Стилі (кольори)
@@ -39,3 +38,4 @@ graph TD
     style Law1 fill:#f9f9f9,stroke:#999,stroke-dasharray: 5 5
     style Law2 fill:#f9f9f9,stroke:#999,stroke-dasharray: 5 5
     style Law4 fill:#f9f9f9,stroke:#999,stroke-dasharray: 5 5
+    style Law5 fill:#f9f9f9,stroke:#999,stroke-dasharray: 5 5
