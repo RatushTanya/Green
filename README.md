@@ -1,42 +1,38 @@
-### Юридична процедура отримання зелених інвестицій
+### Процедура випуску муніципальних зелених облігацій
 
 ```mermaid
 graph TD
     %% Етап 1
-    Step1["<b>Етап 1. Юридичне обґрунтування</b><br/>Відбір проєкту з еко-ефектом"]
-    Law1["<i>ст. 18 ЗУ 'Про ринки капіталу'</i>"]
-    
+    Step1["Етап 1. Стратегічне планування"]
+    Law1["ст. 18 ЗУ Про ринки капіталу"]
     Step1 --- Law1
-    Step1 --> Decision{"Рішення міської ради<br/>про перелік проєктів"}
+    Step1 --> Act1["Рішення ради про перелік проектів та СЕО"]
 
     %% Етап 2
-    Decision --> Step2["<b>Етап 2. Бюджетне погодження</b><br/>Контроль лімітів боргу"]
-    Law2["<i>ст. 74 Бюджетного кодексу<br/>Постанова КМУ №110</i>"]
-    
+    Act1 --> Step2["Етап 2. Бюджетне погодження"]
+    Law2["ст. 74 Бюджетного кодексу"]
     Step2 --- Law2
-    Step2 --> MinFin["Погодження від<br/>Міністерства фінансів"]
+    Step2 --> Act2["Отримання погодження Мінфіну"]
 
     %% Етап 3
-    MinFin --> Step3["<b>Етап 3. Green Bond Framework</b><br/>Розробка 'Зеленої рамки' та SPO"]
-    Standard3["<i>Стандарти ICMA (GBP)<br/>Зовнішній верифікатор</i>"]
-    
+    Act2 --> Step3["Етап 3. Розробка Framework та SPO"]
+    Standard3["Стандарти ICMA / Верифікатор"]
     Step3 --- Standard3
-    Step3 --> Verified["Отримання Second Party<br/>Opinion (SPO)"]
+    Step3 --> Act3["Отримання Second Party Opinion"]
 
     %% Етап 4
-    Verified --> Step4["<b>Етап 4. Реєстрація в НКЦПФР</b><br/>Юридичне народження паперів"]
-    Law4["<i>Рішення НКЦПФР №391</i>"]
-    
+    Act3 --> Step4["Етап 4. Реєстрація та випуск"]
+    Law4["Рішення НКЦПФР №391"]
     Step4 --- Law4
-    Step4 --> Result(("<b>ISIN у Депозитарії</b><br/>Випуск активовано"))
+    Step4 --> Act4["Присвоєння ISIN у Депозитарії"]
 
-    %% Стилізація
-    style Step1 fill:#f9f9f9,stroke:#333
-    style Step2 fill:#f9f9f9,stroke:#333
-    style Step3 fill:#f9f9f9,stroke:#333
-    style Step4 fill:#f9f9f9,stroke:#333
-    style Result fill:#e1f5fe,stroke:#01579b,stroke-width:2px
-    style Law1 fill:#fff3e0,stroke:#ef6c00,stroke-dasharray: 5 5
-    style Law2 fill:#fff3e0,stroke:#ef6c00,stroke-dasharray: 5 5
-    style Standard3 fill:#fff3e0,stroke:#ef6c00,stroke-dasharray: 5 5
-    style Law4 fill:#fff3e0,stroke:#ef6c00,stroke-dasharray: 5 5
+    %% Етап 5
+    Act4 --> Step5["Етап 5. Розміщення та звітність"]
+    Step5 --> Act5["Аукціон та щорічний Impact Reporting"]
+
+    %% Стилі
+    style Step1 fill:#f5f5f5,stroke:#333
+    style Step5 fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
+    style Law1 fill:#fff8e1,stroke:#ff8f00
+    style Law2 fill:#fff8e1,stroke:#ff8f00
+    style Law4 fill:#fff8e1,stroke:#ff8f00
