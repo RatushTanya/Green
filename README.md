@@ -42,6 +42,6 @@ graph TD
 
     %% ЗАСТОСУВАННЯ КЛАСІВ
     class Step1,Step2,Step3,Step4,Step5 mainNode;
-    class Law1,Law2,Law4,Law5 lawNode;
+    class Law1,Law2,Law3,Law4,Law5 lawNode;
     class Act1,Act2,Act3,Act4,Act5,Act6 actionNode;
     class Act7 successNode;
