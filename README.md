@@ -34,11 +34,12 @@ graph TD
     Step5 --- Law1
     Step5 --> Act7["Результат"]
 
-    classDef mainNode fill:#f5f5f5,stroke:#333,stroke-width:4px,padding:2px 2px;
-    classDef lawNode fill:#f9f9f9,stroke:#999,stroke-width:2px,stroke-dasharray: 5 5,padding:2px 1px;
-    classDef actionNode fill:#fff,stroke:#333,stroke-width:3px,padding:2px 2px;
-    classDef highlightNode fill:#fff3e0,stroke:#ef6c00,stroke-width:5px,padding:2px 2px;
-    classDef successNode fill:#e8f5e9,stroke:#2e7d32,stroke-width:5px,padding:2px 2px;
+    classDef mainNode fill:#f5f5f5,stroke:#333,stroke-width:4px,padding:50px 1px;
+    classDef lawNode fill:#f9f9f9,stroke:#999,stroke-width:2px,stroke-dasharray: 5 5,padding:50px 1px;
+    classDef actionNode fill:#fff,stroke:#333,stroke-width:3px,padding:50px 1px;
+    classDef highlightNode fill:#fff3e0,stroke:#ef6c00,stroke-width:5px,padding:50px 1px;
+    classDef successNode fill:#e8f5e9,stroke:#2e7d32,stroke-width:5px,padding:50px 1px;
+
 
     %% ЗАСТОСУВАННЯ КЛАСІВ
     class Step1,Step2,Step3,Step4,Step5 mainNode;
