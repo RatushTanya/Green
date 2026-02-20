@@ -35,7 +35,7 @@ graph TD
     Step5 --> Act7["Результат"]
 
     classDef mainNode fill:#f5f5f5,stroke:#333,stroke-width:4px,padding:30px 2px;
-    classDef lawNode fill:#f9f9f9,stroke:#999,stroke-width:2px,stroke-dasharray: 5 5,padding:40px 1px;
+    classDef lawNode fill:#f9f9f9,stroke:#999,stroke-width:2px,stroke-dasharray: 5 5,padding:20px 1px;
     classDef actionNode fill:#fff,stroke:#333,stroke-width:3px,padding:25px 2px;
     classDef highlightNode fill:#fff3e0,stroke:#ef6c00,stroke-width:5px,padding:30px 2px;
     classDef successNode fill:#e8f5e9,stroke:#2e7d32,stroke-width:5px,padding:30px 2px;
