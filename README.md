@@ -36,10 +36,9 @@ graph TD
 
     %% Стилі (кольори)
     style Step1 fill:#f5f5f5,stroke:#333
-    style CouncilFinal fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
+    %%  style CouncilFinal fill:#fff3e0,stroke:#ef6c00,stroke-width:2px
     style Step5 fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
     style Law1 fill:#f9f9f9,stroke:#999,stroke-dasharray: 5 5
     style Law2 fill:#f9f9f9,stroke:#999,stroke-dasharray: 5 5
     style Law3 fill:#f9f9f9,stroke:#999,stroke-dasharray: 5 5
     style Law4 fill:#f9f9f9,stroke:#999,stroke-dasharray: 5 5
-    style Law5 fill:#f9f9f9,stroke:#999,stroke-dasharray: 5 5
