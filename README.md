@@ -34,14 +34,14 @@ graph TD
     Step5 --- Law1
     Step5 --> Act7["Результат"]
 
-    %% СТИЛІЗАЦІЯ: товсті рамки (stroke-width:4px)
-    classDef thickStep fill:#f5f5f5,stroke:#333,stroke-width:4px,padding:5px 5px;
-    classDef thickLaw fill:#f9f9f9,stroke:#999,stroke-width:2px,stroke-dasharray: 5 5;
-    classDef thickAction fill:#fff,stroke:#333,stroke-width:3px;
-    classDef greenNode fill:#e8f5e9,stroke:#2e7d32,stroke-width:5px;
+    classDef mainNode fill:#f5f5f5,stroke:#333,stroke-width:4px,padding:60px 2px;
+    classDef lawNode fill:#f9f9f9,stroke:#999,stroke-width:2px,stroke-dasharray: 5 5,padding:40px 1px;
+    classDef actionNode fill:#fff,stroke:#333,stroke-width:3px,padding:50px 2px;
+    classDef highlightNode fill:#fff3e0,stroke:#ef6c00,stroke-width:5px,padding:60px 2px;
+    classDef successNode fill:#e8f5e9,stroke:#2e7d32,stroke-width:5px,padding:60px 2px;
 
-    %% Призначення класів
-    class Step1,Step2,Step3,Step4,Step5 thickStep;
-    class Law1,Law2,Law3,Law4,Law5 thickLaw;
-    class Act1,Act2,Act3,Act4,Act5,Act6,Act7 thickAction;
-    class Step5 greenNode;
+    %% ЗАСТОСУВАННЯ КЛАСІВ
+    class Step1,Step2,Step3,Step4,Step5 mainNode;
+    class Law1,Law2,Law4,Law5 lawNode;
+    class Act1,Act2,Act3,Act4,Act5,Act6 actionNode;
+    class Act7 successNode;
