@@ -25,14 +25,13 @@ graph TD
     Law4["Рішення НКЦПФР №391"]
     Step4 --- Law4
     Step4 --> Act4["Друге рішення ради про емісію"]
-    Act4 --> Act5["Подання проспекту емісії до НКЦПФР"]
-    Act5 --> Act6["Присвоєння номера ISIN в НДУ"]
-
+    Act4 --> Act5["Подання проспекту емісії до НКЦПФР та Присвоєння номера ISIN"]
+    
     %% Етап 5
-    Act6 --> Step5["<h4>Етап 5. Розміщення зелених облігацій та Щорічна звітність</h4>"]
+    Act5 --> Step5["<h4>Етап 5. Розміщення зелених облігацій та Щорічна звітність</h4>"]
     Law1["ст. 18 ЗУ Про ринки капіталу"]
     Step5 --- Law1
-    Step5 --> Act7["Результат"]
+    Step5 --> Act6["Результат"]
 
     classDef mainNode fill:#f5f5f5,stroke:#333,stroke-width:4px,padding:100px 0px;
     classDef lawNode fill:#f9f9f9,stroke:#999,stroke-width:2px,stroke-dasharray: 1 1,padding:100px 0px;
@@ -44,5 +43,5 @@ graph TD
     %% ЗАСТОСУВАННЯ КЛАСІВ
     class Step1,Step2,Step3,Step4,Step5 mainNode;
     class Law1,Law2,Law3,Law4,Law5 lawNode;
-    class Act1,Act2,Act3,Act4,Act5,Act6 actionNode;
-    class Act7 successNode;
+    class Act1,Act2,Act3,Act4,Act5 actionNode;
+    class Act6 successNode;
