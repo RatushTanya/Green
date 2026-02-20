@@ -35,7 +35,7 @@ graph TD
     Step5 --> Act7["Результат"]
 
     %% СТИЛІЗАЦІЯ: товсті рамки (stroke-width:4px)
-    classDef thickStep fill:#f5f5f5,stroke:#333,stroke-width:4px,padding:5px 5px;
+    classDef thickStep fill:#f5f5f5,stroke:#333,stroke-width:8px,padding:5px 5px;
     classDef thickLaw fill:#f9f9f9,stroke:#999,stroke-width:2px,stroke-dasharray: 5 5;
     classDef thickAction fill:#fff,stroke:#333,stroke-width:3px;
     classDef specialNode fill:#fff3e0,stroke:#ef6c00,stroke-width:5px;
