@@ -42,7 +42,7 @@ graph TD
     classDef greenNode fill:#e8f5e9,stroke:#2e7d32,stroke-width:5px;
 
     %% Призначення класів
-    class Step1,Step2,Step3,Step4 thickStep;
+    class Step1,Step2,Step3,Step4,Step5 thickStep;
     class Law1,Law2,Law3,Law4,Law5 thickLaw;
     class Act1,Act2,Act3,Act4,Act5,Act6,Act7 thickAction;
     class CouncilFinal specialNode;
