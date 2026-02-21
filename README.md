@@ -1,4 +1,3 @@
-```mermaid
 %%{init: {'flowchart': {'nodeSpacing': 10, 'rankSpacing': 10}}}%%
 graph TD
 
@@ -39,11 +38,12 @@ graph TD
     Step6 --- Law1_3
     Step6 --> Act7["Старт проєкту та <br/>щорічний Impact Reporting"]
 
-    %% СТИЛІЗАЦІЯ (Компактна)
-    classDef mainNode fill:#f5f5f5,stroke:#333,stroke-width:2px,padding:2px;
-    classDef lawNode fill:#E1F5FE,stroke:#01579b,stroke-width:1px,stroke-dasharray: 5 5,padding:2px;
-    classDef actionNode fill:#fff,stroke:#333,stroke-width:2px,padding:2px;
-    classDef successNode fill:#e8f5e9,stroke:#2e7d32,stroke-width:3px,padding:2px;
+    %% СТИЛІЗАЦІЯ ДЛЯ ПЛОСКИХ ФОРМ
+    %% padding: 40px (ширина) 0px (висота)
+    classDef mainNode fill:#f5f5f5,stroke:#333,stroke-width:2px,padding:40px 0px;
+    classDef lawNode fill:#E1F5FE,stroke:#01579b,stroke-width:1px,stroke-dasharray: 5 5,padding:20px 0px;
+    classDef actionNode fill:#fff,stroke:#333,stroke-width:2px,padding:40px 0px;
+    classDef successNode fill:#e8f5e9,stroke:#2e7d32,stroke-width:3px,padding:40px 0px;
 
     %% ЗАСТОСУВАННЯ КЛАСІВ
     class Step1,Step2,Step3,Step4,Step5,Step6 mainNode;
