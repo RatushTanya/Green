@@ -15,7 +15,7 @@ graph TD
     Step2 --- Law3
     Law3 --- Law2
     Step2 --> Act2["Отримання погодження Мінфіну"]
-
+Barriers>❌ Ризики відмови:<br/>- Невідповідність лімітам боргу<br/>- Порушення процедури №110]-.->Step2 
     %% Етап 3
     Act2 --> Step3["<h4>Етап 3. Розробка Зеленої рамки</h4>"]
     Step3 --> Act3["Розробка Зеленої рамки за стандартами ICMA"]
@@ -45,9 +45,14 @@ graph TD
     classDef lawNode fill:#E1F5FE,stroke:#01579b,stroke-width:1px,stroke-dasharray: 5 5,padding:20px 0px;
     classDef actionNode fill:#fff,stroke:#333,stroke-width:2px,padding:40px 0px;
     classDef successNode fill:#e8f5e9,stroke:#2e7d32,stroke-width:3px,padding:40px 0px;
+    %% СТИЛІ
+ classDef barrierNode fill:#ffcdd2,stroke:#c62828,stroke-width:2px,color:#b71c1c;
+    
+
 
     %% ЗАСТОСУВАННЯ КЛАСІВ
     class Step1,Step2,Step3,Step4,Step5,Step6 mainNode;
     class Law1_1,Law1_2,Law1_3,Law2,Law3,Law4 lawNode;
     class Act1,Act2,Act3,Act4,Act5,Act6 actionNode;
     class Act7 successNode;
+class Barriers barrierNode;
